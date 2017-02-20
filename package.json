@@ -1,0 +1,19 @@
+{
+  "name": "yamaha-csv2json",
+  "version": "1.0.0",
+  "description": "App to convert csv files to json, using (initially) only the Yamaha template",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Schettini (leoschet @ github)",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-busboy": "^5.0.0",
+    "fs": "0.0.1-security",
+    "pug": "^2.0.0-beta11",
+    "socket.io": "^1.7.2"
+  }
+}
